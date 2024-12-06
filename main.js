@@ -5,7 +5,7 @@ var typewriter = new Typewriter(app, {
 });
 
 // Comentario
-typewriter.typeString('Desarrolladora Frontend Jr.')
+typewriter.typeString('Desarrolladora de Software Jr. | Desarrolladora Frontend Jr.')
     .pauseFor(2500)
     .deleteAll()
     .typeString('¡Si lo puedes imaginar, lo puedes crear!')

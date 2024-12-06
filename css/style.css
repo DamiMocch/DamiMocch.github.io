@@ -9,6 +9,7 @@
     scroll-behavior: smooth;
 }
 
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -24,12 +25,14 @@ body{
 
 #logo{
     font-size: 30px;
+    width: 6%;
 }
 
 header{
     height: 15vh;
-    background-image: linear-gradient(to top, #b92c2788 0%, 
-    #1565c069 100%), url(../assets/pexels-peaky-29445973.jpg);
+    background: #BA5370;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  
+    background: linear-gradient(to right, #F4E2D8, #BA5370);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -42,7 +45,7 @@ header{
     position: absolute; 
     top: 5px; 
     left: 20px; 
-    color: #ffffff;
+    color: #993e58;
     font-size: 15px;
     display: flex;
     align-items: center; 
@@ -74,8 +77,9 @@ header{
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(-225deg, #7F7FD5 0%, #86A8E7
-    48%, #91EAE4 100%);
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -87,7 +91,7 @@ header{
 }
 
 .menu-navegacion a:hover{
-    color: black;
+    color: #993e58;
 }
 
 .spread{
@@ -95,13 +99,15 @@ header{
 }
 
 .menu-navegacion a{
-    color: #fff;
+    color: black;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 .titulo{
     font-size: 20px;
     margin: 0;
+    font-weight: bolder;
 }
 
 .copy{
@@ -110,45 +116,163 @@ header{
 }
 
 .card .card-title{
-    color: red;
+    color: #DD5E89;
 
 }
 
 .nombre{
-    color: #0077b6;
+    color: black;
+}
+
+#app {
+    font-size: 30px; 
+    font-weight: bold; 
+    background: #DD5E89;  
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  
+    background: linear-gradient(to right, #F7BB97, #DD5E89); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 
 .boton-cv{
-    background-color: #86A8E7;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    color: #993e58;
+    border: none;
+}
+
+/* HABILIDADES */
+
+.titulo-habilidades{
+    color: #BA5370;
+    font-weight: 500;
+}
+
+.iconos-habilidades{
+    background: #DD5E89;  
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  
+    background: linear-gradient(to right, #F7BB97, #DD5E89); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-habilidades{
+    color: #f18495;
+    font-weight: 400;
+}
+
+.caja-habilidades{
+    background-color: #ffdde138;
+    color: #080808;
+    text-align: justify;
+}
+
+
+
+/* TESTIMONIOS */
+.titulo-testimonio{
+    color: #BA5370;
+    font-weight: 500;
+}
+
+/* PROYECTO */
+
+.titulo-proyecto{
+    color: #BA5370;
+    font-weight: 500;
+}
+
+.btn-proyecto{
+    background-color: #ffdde138;
+}
+
+/* CONTACTO */
+.btn2{
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     border: none;
 }
 
-.caja-habilidades{
-    background-color: #eeeded48;
-    color: #12c2e9;
+.icono-contacto{
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.btn-proyecto{
-    background-color: #ebe8e8;
+.color-proyecto{
+        background-color: #ffdde138;
 
 }
 
-.btn2{
-    background-color: #e9128f;
-}
 .contacto{
-    background-color: beige;
+    background-color: #ffdde138;
 }
 
 
+/* RECOMENDACIONES */
+/* General para las tarjetas */
+.card.tarjeta {
+    width: 20rem; 
+}
+  
+  /* Imágenes de las tarjetas */
+.card.tarjeta .card-img-top {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; 
+    margin: 0 auto; 
+    display: block;
+}
+  
+.card.tarjeta .card-body .card-text {
+    text-align: justify;
+    font-size: 14px;
+}
+
+  .card-title,
+  .card-subtitle {
+    margin-bottom: 10px;
+}
+  
+
+  .carousel-item {
+    padding: 10px;
+}
+
+  .card-body {
+    width: 100%; 
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+
+.card-body .card-text {
+    width: 100%; 
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #FBD3E9;
+}
+
+
+  
 footer li a i{
     color: black;
 }
 
 footer p{
-    color: #e9128f;
+    color: #a75b87;
 }
 
 footer p a{
@@ -191,7 +315,7 @@ footer p a{
 }
 
 #logo{
-    font-size: 20px;
+    font-size: 25px;
 }
 .titulo{
     font-size: 20px;
@@ -201,7 +325,7 @@ footer p a{
 
 @media screen and (max-width:400px){
     #logo{
-        font-size: 15px;
+        font-size: 20px;
     }
     .titulo{
         font-size: 15px;
