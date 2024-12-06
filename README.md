@@ -1,6 +1,6 @@
 ## Portafolio de Proyectos
 
-¡Hola! **Soy Damaris Noemi Moctezuma Chimal**, Desarrolladora Web Jr. Apacionada por la tecnología, aquí encontrarás información sobre mí.
+¡Hola! **Soy Damaris Noemi Moctezuma Chimal**, Desarrolladora Web Jr., Desarrolladora de Software Jr. Apacionada por la tecnología, aquí encontrarás información sobre mí.
 
 ___
 
