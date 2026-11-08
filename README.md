@@ -1,32 +1,16 @@
-## Portafolio de Proyectos
+# Portafolio de Damaris Moctezuma
 
-¡Hola! **Soy Damaris Noemi Moctezuma Chimal**, Desarrolladora Web Jr. Apacionada por la tecnología, aquí encontrarás información sobre mí.
+Sitio estático personal, construido con HTML, CSS y JavaScript sin gestor de paquetes ni dependencias de interfaz.
 
-___
+## Ejecutar localmente
 
-### El proyecto cuenta con las secciones de:
+Abre `index.html` en un navegador, o inicia un servidor estático desde esta carpeta, por ejemplo `python3 -m http.server 8000`, y visita `http://localhost:8000`.
 
-- 💪🏻 Habilidades
-- 📋 Proyectos
-- 📄 Testimonios o recomendaciones
-- 📨 Contacto
+## Recursos principales
 
-### Creado con:
-- HTML
-- CSS
-- JavaScript
+- `index.html`: contenido, metadatos y estructura semántica.
+- `css/style.css`: identidad visual y diseño responsive.
+- `main.js`: menú móvil accesible y año del pie de página.
+- `assets/`: imágenes de proyectos, retrato y CV.
 
-    <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-    <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-
-### Vista Previa
-![Proyecto](assets/Portafolio%201.PNG)
-
-### *Espero pronto saber de ti* 
-*Correo:*
-[DamiBoss_@outlook.com]
-(mailto:DamiBoss_@outlook.com)
-
-### Creado en el bootcam de TecnolochicasPro 💜
-[Tecnolochicas](https://tecnolochicas.mx/)
+El formulario de contacto no está implementado; el contacto se realiza mediante correo o WhatsApp. El despliegue debe configurarse en el proveedor correspondiente.

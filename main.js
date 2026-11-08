@@ -1,17 +1,21 @@
-var app = document.getElementById('app');
-
-var typewriter = new Typewriter(app, {
-    loop: true
-});
-
-// Comentario
-typewriter.typeString('Desarrolladora de Software Jr. | Desarrolladora Frontend Jr.')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('¡Si lo puedes imaginar, lo puedes crear!')
-    .pauseFor(2500)
-    // Número de Caracteres que se borraran
-    .deleteChars(6)
-    .typeString('<strong>Programar!</strong>')
-    .pauseFor(2500)
-    .start();
+const menuButton = document.querySelector('.menu-toggle');
+const siteNav = document.querySelector('#site-nav');
+if (menuButton && siteNav) {
+  const closeMenu = () => {
+    menuButton.setAttribute('aria-expanded', 'false');
+    siteNav.classList.remove('is-open');
+  };
+  menuButton.addEventListener('click', () => {
+    const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!isOpen));
+    siteNav.classList.toggle('is-open', !isOpen);
+  });
+  siteNav.addEventListener('click', event => {
+    if (event.target.closest('a')) closeMenu();
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') { closeMenu(); menuButton.focus(); }
+  });
+}
+const year = document.querySelector('#year');
+if (year) year.textContent = new Date().getFullYear();
